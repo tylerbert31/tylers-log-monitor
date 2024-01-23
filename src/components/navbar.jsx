@@ -1,4 +1,5 @@
 import React from "react";
+import Theme from "./theme";
 
 const Navbar = () => {
   return (
@@ -6,6 +7,7 @@ const Navbar = () => {
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">Tyler | Log Monitor</a>
       </div>
+      <Theme />
       <div className="flex-none">
         <div className="dropdown dropdown-end">
           <div
